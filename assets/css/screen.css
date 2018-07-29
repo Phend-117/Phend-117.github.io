@@ -1,0 +1,204 @@
+
+body {
+	background: #fefefe url(../img/pete.png) top center no-repeat;
+	color: #222;
+	font: 14px/1.5 Georgia, Palatino, "Times New Roman", serif;
+	padding: 0 0 3em;
+}
+
+a, a:link, a:visited { color: #c00; }
+a:hover { color: #111; }
+
+
+/* Structure */
+#header,
+#projects,
+#references,
+#awards {
+	clear: both;
+	margin: 20px auto;
+	overflow: hidden;
+	width: 920px;
+	padding: 0 20px;
+	zoom: 1;
+}
+
+#header {
+	padding-top: 3em;
+}
+
+#intro {
+	clear: both;
+	font-size: 20px;
+	font-style: italic;
+	padding: 5px 0 0;
+}
+
+#projects {
+	width: 960px;
+	padding: 0;
+}
+#header .name {
+	margin: 0 20px 10px 0;
+}
+
+#header ul {
+	list-style: none;
+	overflow: hidden;
+	zoom: 1;
+	margin-top: 15px;
+}
+	#header ul li {
+		float: left;
+		margin: 0 30px 0 0;
+	}
+
+#header h1 {
+	margin: 0;
+	border: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	font: 38px/1 Georgia, Palatino, "Times New Roman", serif;
+	padding: 0;
+}
+#header h2 {
+	margin: 0;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+	h1 a, h2 a, h3 a, h4 a, h5 a {
+		text-decoration: none;
+	}
+	
+h1 {
+	color: #346793;
+	font-size: 12px;
+	font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin: 1.6em 0 1em;
+	border-bottom: 3px #c0d9e4 solid;
+	padding-bottom: 1em;
+}
+	h1 em {
+		font: normal 11px/1.5 Georgia, Palatino, "Times New Roman", serif;
+	}
+
+#projects h1 {
+   margin: 2em -20px 0;
+    padding: 0 20px 1em;
+}
+
+.project {
+	padding: 14px 20px;
+	overflow: hidden;
+	zoom: 1;
+	background:#fff;
+}
+	.project h2 {
+		color: #3d6281;
+		font-size: 24px;
+		margin: 0;
+		padding: 0;
+	}
+	.project h3 {
+		color: #4d90ae;
+		font-size: 16px;
+		font-style: italic;
+		margin: 0 0 1.2em;
+		padding: 0;
+		line-height: 16px;
+	}
+	.project h4 {
+		font-size: 11px;
+		letter-spacing: .25em;
+		text-transform: uppercase;
+		margin: 0 0 1.4em;
+	}
+	.project ul {
+		margin: 0 0 .8em;
+	}
+		.project ul li {
+			margin-left: 18px;
+			margin-bottom: .6em;
+		}
+	.project .summary {
+		font-size: 15px;
+	}
+	#bluedog .summary {
+		margin-bottom: 1.4em;
+	}
+
+.odd {
+	background: #eef6f9;
+	border-top: 1px #c0d9e4 solid;
+	border-bottom: 1px #c0d9e4 solid;
+}
+
+#references h2 {
+	color: #111;
+	font-size: 18px;
+	margin-top: .5em;
+	margin-bottom: 0;
+}
+#references p {
+	color: #444;
+}
+
+#awards ul {
+	list-style: none;
+	float: left;
+	width: 440px;
+	margin-right: 20px;
+}
+	#awards ul li {
+		margin: 0;
+		font-size: 18px;
+		padding: .3em 0 .5em;
+		line-height: 1.4;
+	}
+		#awards ul li span.date {
+			display: block;
+			float: left;
+			margin-left: 0;
+		}
+			#awards ul li span {
+				float: none;
+				display: block;
+				margin-left: 3.2em;
+			}
+				#awards ul li em {
+					font-size: 16px;
+				}
+
+
+.grid_4, .grid_8 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.grid_4 {
+	width: 293px;
+}
+
+.grid_8 {
+	width: 605px;
+}
+.alpha {
+	margin-left: 0;
+}
+.omega {
+	margin-right: 0;
+}
+
+acronym {
+	cursor: help;
+	border-bottom: 1px #ccc dotted;
+}
